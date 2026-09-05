@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhinav Tiwari | Java Developer</title>
+
+    <!-- Favicon -->
+    <link
+        rel="icon"
+        type="image/x-icon"
+        href="assets/profile/Abhinav Tab.ico"
+    >
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <a href="#" class="logo">Nameste Coders 🙏</a>
+        <nav class="navbar">
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#qualifications">Qualifications</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-right">
+            <div class="theme-btn" id="theme-btn" title="Toggle Theme">
+            <span id="theme-emoji">🌙</span>
+        </div>
+
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content Area -->
+    <main class="main-content">
+        <!-- Home Section -->
+        <section class="home section" id="home">
+            <div class="home-content">
+                <h3>Hello, It's Me</h3>
+                <h1>Abhinav Tiwari</h1>
+                <h3>And I'm a <span class="typing-text"></span><span class="cursor">|</span></h3>
+                <p>I’m Abhinav Tiwari, an aspiring Java Developer and MCA student passionate about building efficient and user-friendly applications. I work with Java, Spring Boot, SQL, HTML, CSS, and JavaScript, and enjoy learning new technologies and solving real-world problems. 🚀</p>
+                <div class="social-media">
+                    <a href="https://www.linkedin.com/in/abhinav-tiwari-b045b72b5"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://github.com/Abhinaav2003"><i class="fab fa-github"></i></a>
+                    <a href="https://x.com/ABHINAVTIW84093"><i class="fab fa-twitter"></i></a>
+                </div>
+                <a href="#contact" class="btn">Contact Me</a>
+            </div>
+            <div class="home-img">
+                <div class="img-box">
+                    <!-- Replace this src with your actual image path -->
+                    <img src="assets/profile/coder2.png" alt="Profile Photo">
+                </div>
+            </div>
+        </section>
+
+     <!-- About Section -->
+        <section class="about section" id="about">
+            <h2 class="heading">About <span>Me</span></h2>
+            <div class="about-content reveal">
+                <div class="about-img">
+                    <div class="avatar-placeholder-small">
+                        <!-- Replace this src with your actual image path -->
+                        <img src="assets/profile/ᴀʙʜɪɴᴀᴠ.jpg" alt="Profile Photo">
+                    </div>
+                </div>
+
+                <div class="about-text">
+                    <h3></h3>
+                    <p>I’m Abhinav Tiwari, an MCA student and aspiring Java Full-Stack Developer passionate about building modern, user-friendly, and scalable web applications. I work with Java, Spring Boot, React, JavaScript, SQL, HTML, and CSS, and enjoy turning ideas into practical software solutions.
+
+                        I’m continuously improving my programming, problem-solving, and development skills while exploring new technologies. My goal is to become a skilled software developer and contribute to impactful real-world projects.</p>
+
+                    <div class="about-details">
+                        <div class="detail-item"><strong>Degree:</strong> Masters of Computer Applications</div>
+                        <div class="detail-item"><strong>University:</strong> Dr. A.P.J. Abdul Kalam Technical University</div>
+                        <div class="detail-item"><strong>Interests:</strong> Machine Learning, Backend Development</div>
+                        <div class="detail-item"><strong>Email:</strong> abhinavtiwari.tech@gmail.com</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <!-- Resume Section -->
+        <section class="resume section" id="resume">
+            <div class="resume-content reveal glass">
+                <h2>Grab My <span>Resume</span></h2>
+                <p>Want a comprehensive overview of my academic and professional experience? You can preview my curriculum vitae directly or download it for your records.</p>
+                <div class="resume-btns">
+                    <a href="assets/resume/resume.jpg" class="btn" onclick="openModal('assets/resume/resume.jpg'); return false;"><i class="fas fa-eye"></i> Preview CV</a>
+                    <!-- Pointing href to # for now, user can replace with actual PDF path -->
+                    <a href="assets/resume/resume.pdf" class="btn" download="Abhinav resume.pdf"><i class="fas fa-download"></i> Download CV</a>
+                </div>
+            </div>
+        </section>
+
+    <!-- Skills Section -->
+    <section class="skills section" id="skills">
+        <h2 class="heading">My <span>Skills</span></h2>
+        <div class="skills-container reveal">
+            <div class="skill-category">
+                <h3>Technical Skills</h3>
+                <div class="skill-box">
+                    <span class="skill-name">Java</span>
+                    <div class="progress-bar"><div class="progress" style="width: 90%;"></div></div>
+                </div>
+                <div class="skill-box">
+                    <span class="skill-name">JavaScript / HTML / CSS</span>
+                    <div class="progress-bar"><div class="progress" style="width: 85%;"></div></div>
+                </div>
+                <div class="skill-box">
+                    <span class="skill-name">C</span>
+                    <div class="progress-bar"><div class="progress" style="width: 75%;"></div></div>
+                </div>
+                <div class="skill-box">
+                    <span class="skill-name">SQL / PostgreSQL Databases</span>
+                    <div class="progress-bar"><div class="progress" style="width: 80%;"></div></div>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h3>Research & Tools</h3>
+                <div class="skill-box">
+                    <span class="skill-name">Postman</span>
+                    <div class="progress-bar"><div class="progress" style="width: 85%;"></div></div>
+                </div>
+                <div class="skill-box">
+                    <span class="skill-name">Git & Version Control</span>
+                    <div class="progress-bar"><div class="progress" style="width: 95%;"></div></div>
+                </div>
+                <div class="skill-box">
+                    <span class="skill-name">Docker</span>
+                    <div class="progress-bar"><div class="progress" style="width: 70%;"></div></div>
+                </div>
+                <div class="skill-box">
+                    <span class="skill-name">Maven / Hibernate</span>
+                    <div class="progress-bar"><div class="progress" style="width: 80%;"></div></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Qualifications Section -->
+    <section class="qualifications section" id="qualifications">
+        <h2 class="heading">My <span>Qualifications</span></h2>
+        <div class="qualifications-container reveal">
+            <div class="qualifications-col">
+                <h3 class="title"><i class="fas fa-graduation-cap"></i> Education</h3>
+                <div class="timeline-box">
+                    <div class="timeline-content">
+                        <div class="year"><i class="fas fa-calendar"></i> 2025 - 2027</div>
+                        <h3>Master of Computer Applications</h3>
+                        <h4>Dr. A.P.J. Abdul Kalam Technical University</h4>
+                        <br>
+                        <p>Currently pursuing MCA with a focus on software development, programming, databases and modern technologies.</p>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="year"><i class="fas fa-calendar"></i> 2021 - 2024</div>
+                        <h3>Bachelor of Computer Applications</h3>
+                        <h4>Chaudhary Charan Singh University</h4>
+                        <br>
+                        <p>Studied programming fundamentals, database management, web development and computer applications.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="qualifications-col">
+                <h3 class="title"><i class="fas fa-briefcase"></i> Experience</h3>
+                <div class="timeline-box">
+                    <div class="timeline-content">
+                        <div class="year"><i class="fas fa-calendar"></i> 2026 - Present</div>
+                        <h3>Fresher</h3>
+                        <p></p>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section class="certifications section" id="certifications">
+        <h2 class="heading">My <span>Certifications</span></h2>
+        <div class="certifications-container reveal">
+            
+            <div class="certification-card">
+                <div class="cert-img-box">
+                    <img src="assets/certificate/ORACLE AI DATABASE.jpg" alt="Oracle AI Database Certificate">
+                    <button class="preview-btn" onclick="openModal('assets/certificate/ORACLE AI DATABASE.jpg')"><i class="fas fa-eye"></i> Preview</button>
+                </div>
+                <div class="cert-details">
+                    <h3>Oracle AI Database</h3>
+                    <div class="cert-footer">
+                        <i class=""></i>
+                        <span class="org-name">Oracle</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="certification-card">
+                <div class="cert-img-box">
+                    <img src="assets/certificate/FULL STACK UDEMY.jpg" alt="Full Stack Web Development Certificate">
+                    <button class="preview-btn" onclick="openModal('assets/certificate/FULL STACK UDEMY.jpg')"><i class="fas fa-eye"></i> Preview</button>
+                </div>
+                <div class="cert-details">
+                    <h3>Full-Stack Web Development</h3>
+                    <div class="cert-footer">
+                        <i class=""></i>
+                        <span class="org-name">Udemy</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="certification-card">
+                <div class="cert-img-box">
+                    <img src="assets/certificate/ORACLEAI.jpg" alt="Oracle Agentic AI Certificate">
+                    <button class="preview-btn" onclick="openModal('assets/certificate/ORACLEAI.jpg')"><i class="fas fa-eye"></i> Preview</button>
+                </div>
+                <div class="cert-details">
+                    <h3>Oracle Agentic AI</h3>
+                    <div class="cert-footer">
+                        <i class=""></i>
+                        <span class="org-name">Oracle</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="certification-card">
+                <div class="cert-img-box">
+                    <img src="assets/certificate/JAVA BY ABDUL BARI.jpg" alt="Java Programming Certificate">
+                    <button class="preview-btn" onclick="openModal('assets/certificate/JAVA BY ABDUL BARI.jpg')"><i class="fas fa-eye"></i> Preview</button>
+                </div>
+                <div class="cert-details">
+                    <h3>Java Programming</h3>
+                    <div class="cert-footer">
+                        <i class=""></i>
+                        <span class="org-name">Udemy</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Certificate Modal -->
+    <div id="cert-modal" class="modal">
+        <span class="close-modal">&times;</span>
+        <img class="modal-content" id="modal-img">
+    </div>
+
+    <!-- Projects Section -->
+    <section class="projects section" id="projects">
+        <h2 class="heading">Latest <span>Projects</span></h2>
+        <div class="project-container reveal">
+            
+            <div class="project-card">
+                <div class="project-img">
+                    <img src="assets/projects/quiz-management-system.jpg" alt="Quiz Management System Project">
+                </div>
+                <div class="project-info">
+                    <h4>Quiz Management System</h4>
+                    <p>A complete quiz application with Admin and Student modules, question management, quiz attempts, timer and result management.</p>
+                    <div class="tech-stack">
+                        <span>Java</span>
+                        <span>Spring Boot</span>
+                        <span>MySQL</span>
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+                    <a href="coming-soon.html" class="btn-small"><i class="fas fa-external-link-alt"></i> View Code</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-img">
+                    <img src="assets/projects/portfolio-website.jpg" alt="Portfolio Website Project">
+                </div>
+                <div class="project-info">
+                    <h4>Portfolio Website</h4>
+                    <p>A responsive personal portfolio website designed to showcase my skills, projects, certifications, resume, and contact information. Built using HTML, CSS, and JavaScript, with a clean, modern, and responsive design.</p>
+                    <div class="tech-stack">
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                        <span>JavaScript</span>
+                        <span>Font Awesome</span>
+                    </div>
+                    <a href="coming-soon.html" class="btn-small"><i class="fas fa-external-link-alt"></i> View Live</a>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+    
+    <!-- Contact Section -->
+<section class="contact section" id="contact">
+
+    <h2 class="heading">Contact <span>Me!</span></h2>
+
+    <form action="https://api.web3forms.com/submit"
+          method="POST"
+          class="contact-form reveal">
+
+        <!-- Web3Forms Access Key -->
+        <input type="hidden"
+               name="access_key"
+               value="8cff4e42-2d74-4abf-ab21-8462088c7168">
+
+        <!-- Optional: Email Subject -->
+        <input type="hidden"
+               name="subject"
+               value="New Contact Message from Portfolio">
+
+        <!-- Optional: From Name -->
+        <input type="hidden"
+               name="from_name"
+               value="Abhinav Tiwari Portfolio">
+
+        <div class="input-box">
+
+            <!-- Full Name -->
+            <input type="text"
+                   name="name"
+                   placeholder="Full Name"
+                   autocomplete="name"
+                   required>
+
+            <!-- Email -->
+            <input type="email"
+                   name="email"
+                   placeholder="Email Address"
+                   autocomplete="email"
+                   required>
+
+        </div>
+
+        <div class="input-box">
+
+            <!-- Mobile Number -->
+            <input type="tel"
+                   name="phone"
+                   placeholder="Mobile Number"
+                   autocomplete="tel">
+
+            <!-- Subject -->
+            <input type="text"
+                   name="message_subject"
+                   placeholder="Email Subject"
+                   required>
+
+        </div>
+
+        <!-- Message -->
+        <textarea name="message"
+                  cols="30"
+                  rows="10"
+                  placeholder="Your Message"
+                  required></textarea>
+
+        <!-- Submit Button -->
+        <button type="submit" class="btn">
+            Send Message
+        </button>
+
+    </form>
+
+</section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2026 by Abhinav Tiwari | All Rights Reserved.</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#home"><i class="fas fa-arrow-up"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
